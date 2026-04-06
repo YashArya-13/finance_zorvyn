@@ -1,0 +1,26 @@
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.income { background: green; }
+.expense { background: red; }
+.balance { background: blue; }
